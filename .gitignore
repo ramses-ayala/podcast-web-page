@@ -1,0 +1,8 @@
+#files
+gulpFile.js
+
+# dependencies
+/node_modules
+
+#production
+/build

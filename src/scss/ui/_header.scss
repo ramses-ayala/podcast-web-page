@@ -1,0 +1,22 @@
+
+@use '../custom' as *;
+@use 'utils/mixins';
+
+
+.site-header{
+
+    @include mixins.bgImage('../img/header.jpg', $secondary);
+
+    padding-top: 4rem;
+    height: 90vh;
+    background-color: 1px solid green;
+
+    .logo{
+        width: 20rem;
+    }
+
+    .content{        
+        
+    }
+}
+
